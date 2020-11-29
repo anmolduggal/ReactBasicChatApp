@@ -1,0 +1,129 @@
+body {
+	background-color: #e6ecf0; 	
+}
+.navbar{
+	    margin-bottom: 7vh;
+}
+.navbar a{
+	font-weight: bold;
+	color:white;
+}
+.navbar a:hover{
+	color:white;
+	text-decoration: underline;
+	cursor:pointer;
+}
+.navbar-brand >i{
+	display:inline-block;
+	margin-bottom: 2px;
+	margin-right: 5px;
+	border-radius: 2px;
+		font-size: 34px;
+}
+.navbar-nav li{
+	margin:0 0.5rem;
+}
+.onboarding .navbar{
+	background-color: green;
+	background-size: 100% 100%; 
+}
+.home-hero{
+	width:100vw;
+	height: 100vh;
+	position: absolute;
+	top:0;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content: center;
+	background:url(./images/back.jpg);
+	z-index:-1;
+	text-align: center;
+	padding:1rem;
+	background-position: center center;
+	background-size:cover;
+	color:#ffffff;
+	text-shadow: 0 0 8px #66757f;
+}
+#messages .list-group-item{
+	display:flex;
+	align-items: flex-start;
+	padding: 7px 20px 0px;
+}
+#messages:not(.no-hover) .list-group-item:hover{
+	background-color: #e6ecf0;
+}
+.User-List{
+	    margin-bottom: 5px;
+}
+.profile{
+	    margin-top:5%; 
+	    overflow-y: visible;
+    overflow-x: hidden;
+  padding: 10px;
+  
+  margin: 0; 
+  max-height:72vh;
+
+}
+.profileimg{
+	    height: 50px;
+    width: 50px;
+	    border-radius:50%;
+}
+.profile::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.profile::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.profile::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+.UserAside{
+	    margin: 0% 5% 5% 5%;
+}
+.message-area{
+	width:100%;
+}
+.deleteButton{
+	float:right; 
+}
+.timeline-image{
+	  border-radius: 50%;
+	  width:50px;
+	  height: 50px;    
+}
+.messageBox{
+  overflow-y: visible;
+  overflow-x: hidden;
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  max-height:80vh;	
+}
+.scrollbar{
+    padding-left: 5%;
+}
+.friendMessageBox{
+	max-height: 65vh;		
+}
+.searching{
+	width: 203px;
+	background-color:white; 
+	 position: absolute;
+	 z-index: 1000;					
+}
+.notSearching{
+	display: none;
+}
